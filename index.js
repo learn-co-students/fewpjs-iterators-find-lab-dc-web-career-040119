@@ -1,11 +1,12 @@
-const testVar = {}
+// const testVar = {}
+//
+// function testFunc() {
+//   return "hi"
+// }
 
-function testFunc() {
-  return "hi"
-}
+// function superbowlWin(record) {
+//   return record.result.find( r => r === "W")
+// }
 
-function superbowlWin(record) {
-  return record.find( r => r === "W")
-}
-
-//it's expecting a conditional statement
+//Accessing the result property of the record object
+let superbowlWin = record.result.find( s => s === "W" )
