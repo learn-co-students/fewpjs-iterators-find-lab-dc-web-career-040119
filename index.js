@@ -8,5 +8,3 @@ function superbowlWin(record) {
   const match = record.find(record => record.result === 'W');
   return !!match ? match.year : undefined;
 };
-
-console.log(superbowlWin(record));
